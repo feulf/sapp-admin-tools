@@ -35,7 +35,7 @@ Create Safe app with typescript support using yarn as a package manager.
 
 - `npx create-react-app sapps_getting_started --typescript`
 - `cd sapps_getting_started`
-- `yarn add https://github.com/gnosis/safe-apps-sdk`
+- `yarn add git@github.com:gnosis/safe-apps-sdk.git`
 - add `description` and `iconPath` to `manifest.json` (see https://github.com/gnosis/safe-apps-sdk)
 - Setup cors as mentioned in the readme of https://github.com/gnosis/safe-react-apps
 - Call `initSdk` with `[/.*localhost.*/]` - this allows to use your local safe-react instance
